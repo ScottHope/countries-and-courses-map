@@ -13,7 +13,7 @@ body {
     overflow: auto;
     padding: 5px 5px 10px 17px;
     min-width: 275px;
-    background: #aadaff;
+    /* background: #aadaff; */
     cursor: default;
 }
 
