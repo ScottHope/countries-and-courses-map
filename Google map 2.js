@@ -7,7 +7,7 @@ let x = 51.509865,
     country = document.getElementById("country"),
     tables = document.getElementById("tables"),
     trs = document.querySelectorAll("tr:not(.noHighlight)");
-
+    
 for (i = 0; i < trs.length; i++) {
     trs[i].addEventListener("click", ctryselect);
 }
