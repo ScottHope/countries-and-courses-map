@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    flex: 1;
+    height: 100vh;
+}
+
+#tables {
+    font: 1.0em tahoma;
+    overflow: auto;
+    padding: 5px 5px 10px 17px;
+    min-width: 275px;
+    background: #aadaff;
+    cursor: default;
+}
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+#btn {
+    width: 100%;
+    position: sticky;
+    top: 2px;
+    cursor: pointer;
+}
+
+tr:not(.noHighlight):hover {
+    background: rgb(255, 255, 255);
+    text-shadow: none;
+}
+
+#country, #club {
+    white-space: nowrap;
+}
+
+td:nth-child(-n+2), td:nth-child(n+4) {
+    display: none;
+}
+
+td:nth-child(3) {
+    width: 250px;
+}
+
+.select {
+    background: rgb(214, 239, 255);
+    text-shadow: none;
+}
+
+.hidden {
+    display: none;
+}
