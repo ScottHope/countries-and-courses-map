@@ -50,6 +50,6 @@ function ctryselect(ev) {
     y = parseFloat(this.children[5].textContent);
     map.panTo({ lat: x, lng: y });
     info.setPosition({ lat: x, lng: y });
-    info.setContent(this.children[2].textContent);
+    info.setContent(`${this.children[2].textContent} ${this.children[3].textContent}`);
     info.setMap(map);
 }
